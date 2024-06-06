@@ -263,7 +263,7 @@
       "\t\t\t</div>",
       "\t\t</div>",
       "\t</div>",
-      "</div>",
+      "</div>"
     ]
   },
   "bs5-alert": {
@@ -335,7 +335,7 @@
       "\t<div class=\"card-footer text-muted\">",
       "\t\t$4...",
       "\t</div>",
-      "</div>",
+      "</div>"
     ]
   },
   "bs5-card": {
@@ -509,7 +509,7 @@
     "body": [
       "<li class=\"nav-item\">",
       "\t<a class=\"nav-link\" href=\"$1\">$2</a>$0",
-      "</li>",
+      "</li>"
     ]
   },
   "bs5-navbar": {
@@ -550,7 +550,7 @@
       "\t\t\t</form>",
       "\t\t</div>",
       "\t</div>",
-      "</nav>",
+      "</nav>"
     ]
   },
   "bs5-pagination": {
@@ -564,7 +564,7 @@
       "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
       "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">${3:Next}</a></li>",
       "\t</ul>",
-      "</nav>",
+      "</nav>"
     ]
   },
   "bs5-pagination-icons": {
@@ -586,7 +586,7 @@
       "\t\t\t</a>",
       "\t\t</li>",
       "\t</ul>",
-      "</nav>",
+      "</nav>"
     ]
   },
   "bs5-progress-bar": {
@@ -594,7 +594,7 @@
     "body": [
       "<div class=\"progress\">",
       "\t<div class=\"progress-bar bg-${1|primary,secondary,success,danger,warning,info,light,dark|}${2: progress-bar-striped}\" role=\"progressbar\" style=\"width: $3%;\" aria-valuenow=\"$3\" aria-valuemin=\"0\" aria-valuemax=\"100\">$3%</div>",
-      "</div>",
+      "</div>"
     ]
   },
   "bs5-spiner": {
@@ -602,7 +602,7 @@
     "body": [
       "<div class=\"spinner-${1|border,grow|} text-${2|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
       "\t<span class=\"visually-hidden\">${3:Loading...}</span>",
-      "</div>",
+      "</div>"
     ]
   },
   "bs5-toast": {
@@ -618,7 +618,7 @@
       "\t<div class=\"toast-body\">",
       "\t\t${6:Hello, world! This is a toast message.}",
       "\t</div>",
-      "</div>",
+      "</div>"
     ]
   },
   "bs5-colored-link": {
@@ -628,5 +628,5 @@
   "bs5-ratio": {
     "prefix": "bs5-ratio",
     "body": "<div class=\"ratio ratio-${1|1x1,4x3,16x9,21x9|}\">$0</div>"
-  },
+  }
 }
